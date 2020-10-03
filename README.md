@@ -1,1 +1,1 @@
-# recommendation-board
+This repo works for me like a notepad and hopefully will evolve to some better application during when I will be progressing with learning next technologies and details about web development.
