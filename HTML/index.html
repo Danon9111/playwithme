@@ -1,55 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Cours notes</title>
-    </head>
-    <body>
-        <div>Based on FrontendMasters cours by Brian Holt</div>
-        <div>
-            <h1>Introduction to WEB development cours</h1>
+
+<head>
+    <title>Cours notes</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="intro">
+            <p>Based on FrontendMasters cours by Brian Holt</p>
         </div>
-        <div>
-            <h2 id="dayOne">Day one summary</h2>
-            <p>Mostly introduction about what course is. Introduction who Brian is. 
-                And basicly few words about basics of HTML</p>
-            <h2 id="dayTwo">Day two summary</h2>
-            <p>Continue of HTML basics.</p>
-            <p>Refreshed knowledge:
-                <ol>
-                    <li><p>Tag structure</p>
-                    <p>In <code class="code-fragment">a href="something.html"</code>
-                        <code class="code-fragment">a</code> is a tag.
-                        <code class="code-fragment">href</code> is an attribute.
+        <div class="main-content">
+            <div>
+                <h1>Introduction to WEB development cours</h1>
+            </div>
+            <div>
+                <div>
+                    <h2 id="day-one">Day one summary</h2>
+                    <p>Mostly introduction about what course is. Introduction who Brian is.
+                        And basicly few words about basics of HTML</p>
+                </div>
+                <div>
+                    <h2 id="day-two">Day two summary</h2>
+                    <p>Continue of HTML basics.</p>
+                    <p>Refreshed knowledge:
+                    <ol>
+                        <li>
+                            <p>Tag structure</p>
+                            <p>In <code class="code-fragment">a href="something.html"</code>
+                                <code class="code-fragment">a</code> is a tag.
+                                <code class="code-fragment">href</code> is an attribute.
+                            </p>
+                        </li>
+                        <li>
+                            <p>Lists</p>
+                            <ul>
+                                <li>
+                                    <p><strong><code class="code-fragment">ol</code></strong> is an order list</p>
+                                </li>
+                                <li>
+                                    <p><strong><code class="code-fragment">ul</code></strong> is an unorder list</p>
+                                </li>
+                                <li>
+                                    <p><strong><code class="code-fragment">li</code></strong> is a list element, under
+                                        order
+                                        or
+                                        unorder list</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>Attributes</p>
+                            <ul>
+                                <p>inputs type</p>
+                                <p><code class="code-fragment">input type="smth"</code></p>
+                                <li>checkbox</li>
+                                <li>number</li>
+                                <li>charackter</li>
+                            </ul>
+                        </li>
+                    </ol>
                     </p>
-                    </li>
-                    <li><p>Lists</p>
+                    <div>
+                        <blockquote>
+                            <p>Name should describe what it do, not how it looks</p>
+                        </blockquote>
+                    </div>
+                    <div>
+                        <h3>META HTML</h3>
                         <ul>
-                            <li><p><strong><code class="code-fragment">ol</code></strong> is an order list</p></li>
-                            <li><p><strong><code class="code-fragment">ul</code></strong> is an unorder list</p></li>
-                            <li><p><strong><code class="code-fragment">li</code></strong> is a list element, under order or unorder list</p></li>
+                            <li>
+                                <p><strong><code class="code-fragment">title</code></strong></p>
+                                <p>it describes page. Value from this parameter is present as a page title in Google
+                                    search
+                                    results
+                                </p>
+                            </li>
+                            <li>
+                                <p><strong><code class="code-fragment">script</code></strong></p>
+                                <p>it is used for injecting JavaScript and CSS files into our HTML</p>
+                            </li>
+                            <li>
+                                <p><strong><code class="code-fragment">style</code></strong></p>
+                            </li>
                         </ul>
-                    </li>
-                    <li><p>Attributes</p>
-                        <ul><p>inputs type</p>
-                            <p><code class="code-fragment">input type="smth"</code></p>
-                            <li>checkbox</li>
-                            <li>number</li>
-                            <li>charackter</li>
-                        </ul>
-                    </li>
-                </ol>
-            </p>
+                    </div>
+                </div>
+                <div>
+                    <h2 id="day-three">Day three summary</h2>
+                    <p>CSS basics</p>
+                    <p>To remember: don't use <code class="code-fragment">ID</code> for styling. They are too powerfull.
+                    </p>
+                    <p><code class="code-fragment">!important</code> similar to above.
+                        It is even more powerfull than <code class="code-fragment">ID</code></p>
+                </div>
+                <div>
+                    <h2 id="day-four">Day four summary</h2>
+                    <p>CSS basics part 2</p>
+                    <p>Pseudoclasses</p>
+                    <p>For example <code class="code-fragment">.class-name:hover</code> will style how anchor element
+                        will behave
+                        during hover state</p>
+                </div>
+                <div>
+                    <h2 id="day-five">Day five summary</h2>
+                    <p>General knowledge about flex</p>
+                    <p>Introduction to dev tools</p>
+                    <p>Exercise!</p>
+                    <p>To generate ready HTML index.html file in VCS do:
+                        <ol>
+                            <li>create new html file</li>
+                            <li>type <code class="code-fragment">html:5</code></li>
+                            <li>push TAB button</li>
+                        </ol>
+                    </p>
+                </div>
+            </div>
+            <div class="usefull-links">
+                <div>
+                    <h2>This links has been googled during working with this page</h2>
+                </div>
+                <div>
+                    <p>Forget something? Check this:</p>
+                    <ul>
+                        <li><a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+                                class="usefull-links">VSC shortcuts</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote"
+                                class="usefull-links">Blockquotes</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes"
+                                class="usefull-links">Pseudoclasses</a></li>
+                        <li><a href="https://stackoverflow.com/questions/1216114/how-can-i-make-a-div-stick-to-the-top-of-the-screen-once-its-been-scrolled-to"
+                                class="usefull-links">Sticky header</a></li>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Comments"
+                                class="usefull-links">Comments
+                                in CSS</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div><blockquote><p>Name should describe what it do, not how it looks</p></blockquote></div>
-        <div><h3>META HTML</h3>
-            <ul>
-                <li><p><strong><code>title</code></strong></p>
-                    <p>it describes page. Value from this parameter is present as a page title in Google search results</p>
-                </li>
-                <li><p><strong><code>script</code></strong></p>
-                    <p>it is used for injecting JavaScript and CSS files into our HTML</p></li>
-                <li><p><strong><code>style</code></strong></p></li>
-            </ul>
-        </div>
-    </body>
+    </div>
+</body>
+
 </html>
