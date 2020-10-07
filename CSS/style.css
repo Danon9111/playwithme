@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+.intro {
+    /* position: fixed;
+    background-color: lightskyblue; */
+    width: 100%;
+    height: 45px;
+}
+
+.intro p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.main {
+    background-color: white;
+    width: 100%;
+}
+.main-content {
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Comic Sans MS';
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.code-fragment {
+    background-color: papayawhip;
+    font-family: fantasy;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+div.usefull-links {
+    background-color: mediumseagreen;
+    padding: 20px;
+}
+
+a.usefull-links {
+    color: black;
+    text-decoration: none;
+}
+
+a.usefull-links:hover {
+    background-color: burlywood;
+    text-decoration: underline;
+}
