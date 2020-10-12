@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+.page-body {
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.master-header {
+    width: 100%;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    display: block;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.header-text {
+    font-size: 60px;
+}
+
+.social-media-links-container {
+    flex: 1;
+    display: block;
+}
+
+.social-media-icons-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.social-media-icon {
+    position: relative;
+    margin-right: 1.5rem;
+}
+
+.page-content {
+    border: 1px solid black;
+}
+
+.intro-container {
+    border: 1px solid black;
+    background-color: #8080804d;
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.intro-image {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-right: 5%;
+}
+
+.intro-text {
+    width: 50%;
+}
+
+.intro-header {
+    font-size: 45px;
+    text-align: right;
+}
+
+.about-page-container {
+    border: 1px solid black;
+}
+
+.about-header {
+    text-align: center;
+}
+
+.about-paragraphs {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.gh-container {
+    border: 1px solid black;
+    background-color: whitesmoke;
+
+}
+
+.faq-container {
+    border: 1px solid black;
+}
+
+.footer-container {
+    background-color: black;
+}
+
+.footer-content h3 {
+    color: white;
+}
