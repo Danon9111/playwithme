@@ -3,15 +3,14 @@
 }
 
 .page-body {
-    width: 100%;
-    background-color: white;
-    border: 1px solid black;
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .master-header {
     width: 100%;
-    background-color: whitesmoke;
-    border: 1px solid black;
+    background-color: #9e9e9e14;
     display: block;
 }
 
@@ -44,11 +43,9 @@
 }
 
 .page-content {
-    border: 1px solid black;
 }
 
 .intro-container {
-    border: 1px solid black;
     background-color: #8080804d;
     display: flex;
     padding-top: 3%;
@@ -97,9 +94,36 @@
 }
 
 .footer-container {
-    background-color: black;
+    width: 100%;
+    background-color: #9e9e9e14;
+    display: block;
 }
 
-.footer-content h3 {
-    color: white;
+.footer-header {
+    text-align: center;
+    color: #05060ea6;
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin-top: 0px;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+.footer-list li {
+    position: relative;
+    margin-right: 1.5rem;
 }
