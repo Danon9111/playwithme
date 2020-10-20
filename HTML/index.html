@@ -4,6 +4,7 @@
 <head>
     <title>Cours notes</title>
     <link rel="stylesheet" href="../CSS/style.css">
+    <script src=""></script>
 </head>
 
 <body>
@@ -120,6 +121,97 @@
                     <h2 id="day-six">Day six summary</h2>
                     <p>Resolving exercise one</p>
                 </div>
+                <div>
+                    <h2 id="day-seven">Day seven summary</h2>
+                    <p>In JavaScript all variable names are written with camel case. Semicolons are not mandatory. They
+                        will be
+                        added automaticly during compilation.
+                    </p>
+                    <p>To put variable value into something (i.e. into sentence) it can be done in a two ways:
+                    <ul>
+                        <li>Old way: <code
+                                class="code-fragment">const sentence = "Hello " + firstName + " " + lastName + "! How are you!?";</code>
+                        </li>
+                        <li>New way: <code
+                                class="code-fragment">const sentenceWithTemplate = `Hello ${firstName} ${lastName}! How are you!?`;</code>
+                        </li>
+                    </ul>
+                    If we want to use <strong>template strings</strong> we need to use <code
+                        class="code-fragment"><strong class="small-code-fragment">`</strong>something<strong>`</strong></code>
+                    </p>
+                    <p>JavaScript does not have different types of numbers. The only number type is <code
+                            class="code-fragment">number</code></p>
+                    <p>To check if value of variable is equal to something use <code
+                            class="small-code-fragment">===</code>. <code class="small-code-fragment">==</code> and
+                        <code class="small-code-fragment">===</code> both can be used for checking if variable value is
+                        equal to something.</p>
+                </div>
+                <div>
+                    <h2 id="day-ten">Day ten summary</h2>
+                    <p><h3>Functions</h3>
+                    <code class="code-fragment">function functionName(functionArguments) { function body}</code>
+                    </p>
+                    <p><h3>Scope</h3>
+                    Refference error can be related with scope issues.</p>
+                    <p><h3>Objects and Arrays</h3>
+                    <code class="code-fragment">const objectName = {
+                        propertieName: "value" };</code>
+                    <ul><li>To get specific propertie from object:</li>
+                    <code class="code-fragment">objectName.propertieName</code>
+                    <li>Object inside object:</li>
+                    <code class="code-fragment">const objectName: {
+                        propertieObjectName: { }
+                        }</code>
+                    <li>Functions inside objects:</li>
+                    <code class="code-fragment">const objectName {
+                        functionName() {function body}}</code>
+                    </ul>
+                    <strong>Object key must be unique.</strong>
+                    Object is unordered structure.
+                    </p>
+                    <p>
+                        <h3>Context</h3>
+                        <code class="small-code-fragment">this</code> used inside of a object, refairs to a context of this object. For example: <code class="code-fragment">const me = {
+                            name: {
+                              first: "Brian",
+                              last: "Holt"
+                            },
+                            location: {
+                              streetNumber: 500,
+                              street: "Fakestreet",
+                              city: "Seattle",
+                              state: "WA",
+                              zipCode: 55555,
+                              country: "USA"
+                            },
+                            getAddress() {
+                              return `${this.name.first} ${this.name.last}
+                          ${this.location.streetNumber} ${this.location.street}
+                          ${this.location.city}, ${this.location.state} ${this.location.zipCode}
+                          ${this.location.country}`;
+                            }
+                          };</code>
+                    </p>
+                    <p>
+                        <h3>Arrays</h3>
+                        Most important
+                        <ul>
+                            <li>To put something into an array, at the end:
+                                <code class="code-fragment">arrayName.push("something to put into an array")</code>
+                            </li>
+                            <li>To overright something in an array
+                                <code class="code-fragment"></code>
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        <h3>Events and listeners</h3>
+                        <code class="code-fragment">pageElement.addEventListener('event', function() {action()}</code>
+                        In this code fragment <code class="small-code-fragment">event</code> is describing what action need to do user to run <code class="small-code-fragment">function() {action()}</code>.
+                    </p>
+                    <p><strong>callback</strong> is a function is call back by something else.
+                    </p>
+                </div>
             </div>
             <div class="usefull-links">
                 <div>
@@ -146,7 +238,8 @@
             <div class="results">
                 <h2>Cours results</h2>
                 <ul>
-                    <li><a href="../Tutorial/Exercise-one/index.html">Web development basics cours - Exercise One</a></li>
+                    <li><a href="../Tutorial/Exercise-one/index.html">Web development basics cours - Exercise One</a>
+                    </li>
                 </ul>
             </div>
         </div>
