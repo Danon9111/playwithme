@@ -167,6 +167,49 @@
                         functionName() {function body}}</code>
                     </ul>
                     <strong>Object key must be unique.</strong>
+                    Object is unordered structure.
+                    </p>
+                    <p>
+                        <h3>Context</h3>
+                        <code class="small-code-fragment">this</code> used inside of a object, refairs to a context of this object. For example: <code class="code-fragment">const me = {
+                            name: {
+                              first: "Brian",
+                              last: "Holt"
+                            },
+                            location: {
+                              streetNumber: 500,
+                              street: "Fakestreet",
+                              city: "Seattle",
+                              state: "WA",
+                              zipCode: 55555,
+                              country: "USA"
+                            },
+                            getAddress() {
+                              return `${this.name.first} ${this.name.last}
+                          ${this.location.streetNumber} ${this.location.street}
+                          ${this.location.city}, ${this.location.state} ${this.location.zipCode}
+                          ${this.location.country}`;
+                            }
+                          };</code>
+                    </p>
+                    <p>
+                        <h3>Arrays</h3>
+                        Most important
+                        <ul>
+                            <li>To put something into an array, at the end:
+                                <code class="code-fragment">arrayName.push("something to put into an array")</code>
+                            </li>
+                            <li>To overright something in an array
+                                <code class="code-fragment"></code>
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        <h3>Events and listeners</h3>
+                        <code class="code-fragment">pageElement.addEventListener('event', function() {action()}</code>
+                        In this code fragment <code class="small-code-fragment">event</code> is describing what action need to do user to run <code class="small-code-fragment">function() {action()}</code>.
+                    </p>
+                    <p><strong>callback</strong> is a function is call back by something else.
                     </p>
                 </div>
             </div>
